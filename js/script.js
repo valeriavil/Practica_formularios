@@ -11,7 +11,7 @@ function mostrarDatos() {
   let materia = document.getElementById("materia").value;
 
   // Validación básica
-  if(nombre === "" || edad === "" || correo === "") {
+  if (nombre === "" || edad === "" || correo === "") {
     alert("Por favor completa los campos obligatorios");
     return;
   }
