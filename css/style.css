@@ -11,7 +11,7 @@ body {
   color: white;
   padding: 20px;
   border-radius: 10px;
-  width: 300px;
+  width: 320px;
 }
 
 input, textarea, select {
@@ -29,6 +29,10 @@ button {
   border: none;
   color: white;
   cursor: pointer;
+}
+
+button:hover {
+  background: darkorange;
 }
 
 #resultado {
